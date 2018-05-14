@@ -7,7 +7,6 @@ import logo from './../logo.svg';
 class DogGallery extends Component{
 
     dogPhotos = [];
-    dogPics = [];
 
     /**
      *
@@ -46,19 +45,11 @@ class DogGallery extends Component{
                     }
                 ).catch(error => console.log('Error:', error))
         }
-
-        console.log(this.dogPhotos);
     }
 
     addDog(isValidType, url, type){
         if (isValidType) {
-            console.log('yo - ' + type );
             this.dogPhotos.push(url);
-            this.dogPics.push({
-                url: url,
-                type: type
-            });
-
             this.setState({
                 isLoaded: true,
                 doggos: this.dogPhotos
