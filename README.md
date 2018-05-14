@@ -1,7 +1,6 @@
 # Dog Gallery
 
-![alt text](https://raw.githubusercontent.com/jsbonso/dogsgallery/blob/master/doggos.png)
-
+![Dog Gallery](doggos.png?raw=true "Dog Gallery")
 ## How to run:
 
 1. Checkout this project in your terminal
