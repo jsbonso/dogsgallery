@@ -1,8 +1,17 @@
 # Dog Gallery
 
+![alt text](https://raw.githubusercontent.com/jsbonso/dogsgallery/blob/master/doggos.png)
+
 ## How to run:
 
-> npm start
+1. Checkout this project in your terminal
+2. Issue this command `npm start`
+3. The app will automatically be run in your web browser. If not, go to localhost:3000
+
+## How to run tests:
+
+Issue the command: `npm test`
+#
 
 ## Specification:
 
